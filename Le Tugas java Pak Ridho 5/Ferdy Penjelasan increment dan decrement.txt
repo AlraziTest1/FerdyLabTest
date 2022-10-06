@@ -1,0 +1,49 @@
+public class FerdyTugas1A{
+	public static void main(String[] args){
+		int a = 10;---------------------------------------------------JUMLAH INTEGER A = 10
+		System.out.println("# Post Increment #");
+		System.out.println("=================");
+		System.out.println("Isi variabel a: " + a);
+		System.out.println("Isi variabel a: " + a++);
+		System.out.println("Isi variabel a: " + a);
+		
+		System.out.println();
+		
+		int b = 10;
+		System.out.println("# Pre Increment #");
+		System.out.println("=================");
+		System.out.println("Isi variabel b: " + b);
+		System.out.println("Isi variabel b: " + ++b);
+		System.out.println("Isi variabel b: " + b);
+		
+	}
+}
+
+
+PENJELASAN SINGKAT==============================================================================
+++ = increment
+[nama variabel]++	Post increment
+++[nama variabel]	Pre increment
+
+
+Post increment		[nama variabel]++
+Mewujudkan [variabel] terlebih dahulu,lalu melakukan [penjumlahan]
+======================================================================
+Pre increment		++[nama variabel]
+Melakukan [penjumlahan] terlebih dahulu,lalu mewujudkan [variabel]
+
+
+=================================================================================================
+-- = decrement
+[nama variabel]++	Post increment
+++[nama variabel]	Pre increment
+
+
+Post increment		[nama variabel]++
+Mewujudkan [variabel] terlebih dahulu,lalu melakukan [penjumlahan]
+======================================================================
+Pre increment		++[nama variabel]
+Melakukan [penjumlahan] terlebih dahulu,lalu mewujudkan [variabel]
+
+
+
